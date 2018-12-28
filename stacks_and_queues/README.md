@@ -18,3 +18,20 @@ s[-1]
 s.pop()
 len(s) == 0
 ```
+
+# Queues
+
+- FIFO
+    - first-in first-out
+- queues are ideal when some notion of order needs to be preserved
+
+## Queue Library
+
+```python3
+colletions.deque
+
+q.append(e)
+q[0]
+q[-1]
+q.popleft()
+```
